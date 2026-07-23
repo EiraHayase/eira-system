@@ -1,24 +1,43 @@
 # Eira System
 
-Eira System is a long-term AI research project exploring the development of an AI-based risk prediction system.
+Eira System is a long-term AI research project exploring how multiple real-world data sources can be integrated to improve AI-based risk prediction.
 
-The project's long-term vision is to investigate whether AI can identify early warning signs before critical situations occur by integrating emotional, physical, behavioral, environmental, and life-event data.
+The project's long-term vision is to build AI capable of detecting subtle warning signs before critical situations occur by learning from relationships across diverse forms of information.
 
-This repository documents the early stages of the project's development and shares the first dataset collected for the Eira System project.
+This repository documents the early-stage development of Eira System and shares the project's first longitudinal dataset and exploratory analyses.
 
-Many critical events begin with subtle changes that people often overlook. Eira System explores whether AI can recognize these changes earlier by treating emotions, physical conditions, behavior, and everyday experiences as measurable variables.
+---
+
+# Vision
+
+Many important events are preceded by small changes that humans often fail to recognize.
+
+Eira System investigates whether AI can discover hidden patterns across multiple types of data and identify early warning signs before risks become critical.
+
+Rather than relying on a single source of information, the project explores how different signals can complement one another to improve prediction.
 
 ---
 
 # Research Concept
 
-One of the central ideas behind Eira System is to treat emotions as quantifiable variables rather than purely subjective experiences.
+Eira System is based on the idea that complex risks emerge through interactions among many different variables.
 
-The project transforms emotional states into structured data and analyzes them alongside physical condition, behavior, environmental factors, and life events.
+Instead of analyzing emotions, health, or market data independently, the project aims to integrate diverse data sources into a unified analytical framework.
 
-Its objective is to investigate whether emotional variables can improve AI-based risk prediction by helping AI detect subtle warning signs before risks become critical.
+Current and future data sources include:
 
-Rather than treating emotions as abstract feelings, Eira System models them as measurable variables that can be analyzed together with other real-world data.
+- Emotional variables
+- Physical condition
+- Behavioral patterns
+- Sleep
+- Environmental factors
+- Life events
+- Weather
+- Financial market data (planned)
+- Prediction market data (planned)
+- Other real-world signals (future research)
+
+The objective is not simply to predict outcomes, but to understand how seemingly unrelated variables interact before important events occur.
 
 ---
 
@@ -39,13 +58,27 @@ Current variables include:
 - Stress events
 - Personal notes
 
+Although this initial dataset represents only a single subject, it serves as the first step toward building larger multi-source datasets.
+
 ---
 
-# Long-Term Vision
+# Long-Term Roadmap
 
-Eira System aims to establish a new approach to AI-based risk prediction by integrating emotional variables with physical, behavioral, and environmental data.
+The long-term goal of Eira System is to integrate increasingly diverse sources of information into a unified AI prediction framework.
 
-The long-term goal is to build AI capable of discovering hidden relationships, recognizing subtle warning signs, and predicting potential risks before they become critical.
+Future development may include:
+
+- Larger longitudinal datasets
+- Multi-user datasets
+- Physiological sensor data
+- Financial market indicators
+- Bitcoin market data
+- Prediction market data
+- News and social information
+- Machine learning models
+- Early warning algorithms
+
+The project ultimately aims to investigate whether combining these heterogeneous data sources enables AI to recognize emerging risks earlier than traditional approaches.
 
 ---
 
@@ -55,8 +88,9 @@ The long-term goal is to build AI capable of discovering hidden relationships, r
 - ✅ Initial longitudinal dataset
 - ✅ Python-based exploratory analysis
 - 🚧 Statistical analysis
-- 🚧 AI model development
-- 🚧 Risk prediction research
+- 🚧 Machine learning experiments
+- 🚧 Multi-source data integration
+- 🚧 AI risk prediction research
 
 ---
 
@@ -69,9 +103,9 @@ Based on the first longitudinal dataset, several preliminary relationships were 
 - Motivation showed a positive correlation with mental stability.
 - Mood showed a moderate negative correlation with anxiety.
 
-These findings are exploratory and are based on a single-subject longitudinal dataset.
+These observations are exploratory and are based on a single-subject longitudinal dataset.
 
-Future research will evaluate whether these relationships remain consistent as the dataset grows.
+Future work will evaluate whether these relationships remain consistent as additional data sources and larger datasets are incorporated.
 
 ---
 
@@ -87,11 +121,27 @@ Future research will evaluate whether these relationships remain consistent as t
 
 ---
 
+# Repository Structure
+
+```
+eira-system/
+│
+├── eira_record.csv            # Longitudinal dataset
+├── eira_analysis.ipynb        # Exploratory analysis
+├── graphs/                    # Visualizations
+├── README.md
+└── LICENSE
+```
+
+---
+
 # Project Status
 
-This repository is actively under development.
+Eira System is currently in its early research stage.
 
-Additional datasets, statistical analyses, visualizations, and AI models will be added over time as the Eira System project evolves.
+The repository will continue to evolve as new datasets, analytical methods, statistical models, and AI experiments are added.
+
+The current focus is on building a robust research foundation rather than producing a finished AI system.
 
 ---
 

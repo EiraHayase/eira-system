@@ -59,6 +59,18 @@ By integrating these diverse variables, the project seeks to build AI capable of
 
 ---
 
+## Initial Findings
+
+Based on the first longitudinal dataset, several preliminary relationships were observed.
+
+- Mental stability showed a strong negative correlation with anxiety.
+- Mental stability showed a strong negative correlation with sadness.
+- Motivation showed a positive correlation with mental stability.
+- Mood showed a moderate negative correlation with anxiety.
+
+These findings are exploratory and based on a single-subject longitudinal dataset.
+Future research will evaluate whether these relationships remain consistent as the dataset grows.
+
 ## License
 
 MIT License
